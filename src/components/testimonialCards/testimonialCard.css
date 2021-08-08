@@ -1,0 +1,26 @@
+.card {
+  width: 247px;
+  height: 140px;
+  padding: 20px;
+  box-shadow: 0 -10px 20px 0 rgba(249, 131, 171, 0.2);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  width: 151px;
+  height: 38px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #000;
+}
+
+.card-desc {
+  width: 207px;
+  height: 42px;
+  font-size: 12px;
+  letter-spacing: -0.43px;
+  color: #000;
+}
