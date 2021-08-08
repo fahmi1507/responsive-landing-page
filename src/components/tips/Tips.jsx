@@ -23,6 +23,7 @@ const Tips = () => {
         {/* <img src={pinkOval} alt="oval" /> */}
         <h3 className="pov-title">Help & Tips</h3>
       </div>
+      <img src={pinkOval} alt="oval" className="oval-pink" />
       <div className="help-container">
         {data?.map((e) => (
           <HelpComponent key={e.id} data={e} />

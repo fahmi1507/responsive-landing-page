@@ -7,11 +7,12 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 315px;
+  width: 311px;
   height: 72px;
   opacity: 0.5;
   background-color: #000;
-  bottom: 0;
+  bottom: 3px;
+  cursor: pointer;
 }
 
 .help-title {
@@ -28,4 +29,5 @@ img.image {
   width: 311px;
   height: 176px;
   object-fit: contain;
+  cursor: pointer;
 }
