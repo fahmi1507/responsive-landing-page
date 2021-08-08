@@ -23,16 +23,16 @@
   line-height: 1.5;
   letter-spacing: -0.64px;
   color: #fff;
+  margin-bottom: 67px;
 }
 
 .help-container {
   margin: 0 auto;
   display: grid;
-  text-align: center;
   max-width: 72%;
   grid-template-columns: repeat(auto-fit, minmax(311px, 1fr));
   gap: 10px;
-  margin-bottom: 127px;
+  margin-bottom: 67px;
 }
 
 .all-set-container {
@@ -52,6 +52,12 @@ img.robot {
   object-fit: contain;
   align-self: flex-start;
   z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .help-container {
+    max-width: 83%;
+  }
 }
 
 @media screen and (max-width: 576px) {

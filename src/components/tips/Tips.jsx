@@ -14,14 +14,12 @@ const Tips = () => {
     <section className="tips-container">
       <div className="pov-container">
         <h3 className="pov-title">POV</h3>
-        <p className="pov-desc" style={{ marginBottom: "67px" }}>
+        <p className="pov-desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ea commodo consequat. Duis aute irure dolor in
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </p>
         <h3 className="pov-title">Resource</h3>
-        <p className="pov-desc" style={{ marginBottom: "100px" }}>
-          These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best
-        </p>
+        <p className="pov-desc">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best</p>
         {/* <img src={pinkOval} alt="oval" /> */}
         <h3 className="pov-title">Help & Tips</h3>
       </div>
