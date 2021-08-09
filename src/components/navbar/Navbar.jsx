@@ -6,7 +6,7 @@ import emot3x from "../../images/emot/bitmap@3x.jpg";
 
 const Navbar = () => {
   let prevScrollpos = window.pageYOffset;
-  window.onscroll = function () {
+  window.onscroll = () => {
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("navbar").style.top = "0";

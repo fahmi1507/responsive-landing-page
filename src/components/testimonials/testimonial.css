@@ -25,8 +25,6 @@ img.group {
 }
 
 .Deffinition-a-pract {
-  max-width: 619px;
-  height: 160px;
   font-size: 21px;
   font-weight: 500;
   line-height: 1.52;
@@ -35,8 +33,6 @@ img.group {
 }
 
 .weekend-team {
-  max-width: 163px;
-  height: 25px;
   font-size: 21px;
   font-weight: 600;
   font-style: italic;
@@ -75,6 +71,10 @@ img.group {
     position: absolute;
     left: 135px;
   }
+
+  .slider-container {
+    max-width: 85%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -84,13 +84,9 @@ img.group {
 
   .Deffinition-a-pract {
     font-size: 16px;
-    height: 168px;
-    width: 311px;
   }
 
   .weekend-team {
-    width: 124px;
-    height: 19px;
     font-size: 16px;
   }
 
@@ -99,7 +95,7 @@ img.group {
     left: 57px;
   }
 
-  /* .testimonial-title {
-    align-self: flex-start;
-  } */
+  .slider-container {
+    max-width: 100%;
+  }
 }
