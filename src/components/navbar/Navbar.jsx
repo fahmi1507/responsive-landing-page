@@ -5,8 +5,18 @@ import emot2x from "../../images/emot/bitmap@2x.jpg";
 import emot3x from "../../images/emot/bitmap@3x.jpg";
 
 const Navbar = () => {
+  let prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-67px";
+    }
+    prevScrollpos = currentScrollPos;
+  };
   return (
-    <nav>
+    <nav id="navbar">
       <div className="nav__container">
         <div className="logo">
           <img src={emot} srcSet={`${emot2x}, ${emot3x}`} alt="emoticon" className="emot" />

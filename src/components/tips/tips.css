@@ -61,16 +61,7 @@ img.robot {
 
 /* override react carousel */
 button.rec-dot {
-  background-color: #0b24fb;
-  box-shadow: 0 0 1px 3px #0b24fb;
-  width: 5px;
-  height: 5px;
-}
-
-button.rec-dot:hover,
-button.rec-dot:active,
-button.rec-dot:focus {
-  box-shadow: 0 0 1px 3px #000;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
