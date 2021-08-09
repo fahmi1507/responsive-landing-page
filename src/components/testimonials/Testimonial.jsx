@@ -20,8 +20,8 @@ const Testimonial = () => {
 
   const settings = {
     infinite: true,
-    // centerMode: true,
-    // centerPadding: "10px",
+    centerMode: true,
+    centerPadding: "10px",
     initialSlide: 0,
     speed: 500,
     slidesToShow: 3,

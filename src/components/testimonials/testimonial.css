@@ -76,9 +76,9 @@ img.group {
     position: absolute;
     left: 135px;
   }
-  /* .slider-container {
+  .slider-container {
     padding: 0 100px;
-  } */
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -107,7 +107,7 @@ img.group {
     margin: 84px auto 30px 32px;
   }
 
-  /* .slider-container {
+  .slider-container {
     padding: 0 47px;
-  } */
+  }
 }
