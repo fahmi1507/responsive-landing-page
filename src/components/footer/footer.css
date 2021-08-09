@@ -22,16 +22,14 @@
 }
 
 .version {
-  width: 126px;
-  height: 24px;
+  min-width: 94px;
+  min-height: 18px;
   padding: 3px 10px 5px;
   border-radius: 12px;
   border: solid 1px #fff;
 }
 
 .alpha-version-01 {
-  width: 106px;
-  height: 16px;
   font-size: 14px;
   font-weight: 300;
   text-align: center;

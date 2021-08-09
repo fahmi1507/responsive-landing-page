@@ -8,7 +8,7 @@ const Footer = () => {
           <span style={{ fontWeight: "bold" }}>wknd</span>@2020
         </p>
         <div className="version">
-          <p className="alpha-version-01">version 1.0</p>
+          <p className="alpha-version-01">alpha version 0.1</p>
         </div>
       </div>
     </footer>

@@ -58,6 +58,7 @@ img.robot {
   position: absolute;
   right: 100px;
 }
+
 @media screen and (max-width: 768px) {
   .help-container {
     max-width: 83%;
