@@ -29,8 +29,8 @@
 .help-container {
   margin: 0 auto;
   display: grid;
-  max-width: 72%;
-  grid-template-columns: repeat(auto-fit, minmax(311px, 1fr));
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 311px);
   gap: 10px;
   margin-bottom: 67px;
 }
@@ -59,11 +59,21 @@ img.robot {
   right: 100px;
 }
 
-@media screen and (max-width: 768px) {
-  .help-container {
-    max-width: 83%;
-  }
+/* override react carousel */
+button.rec-dot {
+  background-color: #0b24fb;
+  box-shadow: 0 0 1px 3px #0b24fb;
+  width: 5px;
+  height: 5px;
+}
 
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px #000;
+}
+
+@media screen and (max-width: 768px) {
   .oval-pink {
     display: none;
   }
