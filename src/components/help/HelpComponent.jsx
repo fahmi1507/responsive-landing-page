@@ -7,7 +7,7 @@ const HelpComponent = ({ data }) => {
       <img className="image" src={data.image} alt={data.id} />
       <div className="black-container">
         <p className="help-title">{data.title}</p>
-        <img src={arrowRight} alt="arrow" />
+        <img src={arrowRight} alt="arrow" className="arrow" />
       </div>
     </div>
   );

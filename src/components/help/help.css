@@ -31,3 +31,8 @@ img.image {
   object-fit: contain;
   cursor: pointer;
 }
+
+.arrow {
+  width: 32px;
+  height: 32px;
+}
