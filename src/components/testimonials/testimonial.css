@@ -56,7 +56,6 @@ img.group {
 }
 
 .testimonial-title {
-  width: 188px;
   height: 38px;
   font-size: 32px;
   font-weight: 900;
@@ -65,7 +64,7 @@ img.group {
 }
 
 .slider-container {
-  max-width: 800px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -75,9 +74,6 @@ img.group {
   .blue-dot {
     position: absolute;
     left: 135px;
-  }
-  .slider-container {
-    padding: 0 100px;
   }
 }
 
@@ -103,11 +99,7 @@ img.group {
     left: 57px;
   }
 
-  .testimonial-title {
-    margin: 84px auto 30px 32px;
-  }
-
-  .slider-container {
-    padding: 0 47px;
-  }
+  /* .testimonial-title {
+    align-self: flex-start;
+  } */
 }

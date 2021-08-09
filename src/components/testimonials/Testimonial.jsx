@@ -6,43 +6,21 @@ import group3x from "../../images/group/group-4@3x.png";
 import blueDot from "../../images/oval.svg";
 import useFetch from "../../useFetch";
 import TestimonialCard from "../testimonialCards/TestimonialCard";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { ClipLoader } from "react-spinners";
+import Carousel from "react-elastic-carousel";
 
 const testimonialUrl = "https://wknd-take-home-challenge-api.herokuapp.com/testimonial";
 
 const Testimonial = () => {
   const { data, loading, error } = useFetch(testimonialUrl);
-  const [color, setColor] = useState("#0b24fb");
+  const [color] = useState("#0b24fb");
+  const breakpoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 500, itemsToShow: 2 },
+    { width: 768, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 3 },
+  ];
   let mySlider;
-
-  const settings = {
-    infinite: true,
-    centerMode: true,
-    centerPadding: "10px",
-    initialSlide: 0,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 850,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 400,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
 
   if (loading) {
     mySlider = (
@@ -52,11 +30,11 @@ const Testimonial = () => {
     );
   } else {
     mySlider = (
-      <Slider {...settings}>
+      <Carousel breakPoints={breakpoints}>
         {data?.map((e) => (
           <TestimonialCard data={e} key={e.id} />
         ))}
-      </Slider>
+      </Carousel>
     );
   }
 

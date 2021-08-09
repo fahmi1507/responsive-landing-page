@@ -9,7 +9,7 @@ import robot3x from "../../images/last-image/group-3@3x.png";
 
 const imageUrl = "https://wknd-take-home-challenge-api.herokuapp.com/help-tips";
 const Tips = () => {
-  const { data, error, loading } = useFetch(imageUrl);
+  const { data } = useFetch(imageUrl);
   return (
     <section className="tips-container">
       <div className="pov-container">
