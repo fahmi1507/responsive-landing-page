@@ -24,3 +24,22 @@
   letter-spacing: -0.43px;
   color: #000;
 }
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 296px;
+    height: 168px;
+    padding: 24px;
+  }
+
+  .card-title {
+    width: 181.2px;
+    height: 45.6px;
+    font-size: 38.4px;
+  }
+  .card-desc {
+    width: 248.4px;
+    height: 50.4px;
+    font-size: 14.4px;
+  }
+}
