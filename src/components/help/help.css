@@ -13,6 +13,7 @@
   background-color: #000;
   bottom: 3px;
   cursor: pointer;
+  transition: ease-out 0.2s;
 }
 
 .help-title {
@@ -25,11 +26,20 @@
   text-align: start;
 }
 
+.image:hover + .black-container {
+  transform: scale(1.02);
+}
+
+.image:hover {
+  transform: scale(1.02);
+}
+
 img.image {
   width: 311px;
   height: 176px;
   object-fit: contain;
   cursor: pointer;
+  transition: ease-out 0.2s;
 }
 
 .arrow {

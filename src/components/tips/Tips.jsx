@@ -8,8 +8,10 @@ import robot2x from "../../images/last-image/group-3@2x.png";
 import robot3x from "../../images/last-image/group-3@3x.png";
 
 const imageUrl = "https://wknd-take-home-challenge-api.herokuapp.com/help-tips";
+
 const Tips = () => {
   const { data } = useFetch(imageUrl);
+
   return (
     <section className="tips-container">
       <div className="pov-container">
@@ -20,12 +22,11 @@ const Tips = () => {
         </p>
         <h3 className="pov-title">Resource</h3>
         <p className="pov-desc">These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best</p>
-        {/* <img src={pinkOval} alt="oval" /> */}
         <h3 className="pov-title">Help & Tips</h3>
       </div>
       <img src={pinkOval} alt="oval" className="oval-pink" />
       <div className="help-container">
-        {data?.map((e) => (
+        {data.map((e) => (
           <HelpComponent key={e.id} data={e} />
         ))}
       </div>
