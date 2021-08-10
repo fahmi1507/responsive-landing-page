@@ -27,19 +27,19 @@
 
 @media screen and (max-width: 500px) {
   .card {
-    width: 296px;
-    height: 168px;
-    padding: 24px;
+    width: 271px;
+    height: 154px;
+    padding: 22px;
   }
 
   .card-title {
-    width: 181.2px;
-    height: 45.6px;
-    font-size: 38.4px;
+    width: 166.1px;
+    height: 41.6px;
+    font-size: 35.2px;
   }
   .card-desc {
-    width: 248.4px;
-    height: 50.4px;
-    font-size: 14.4px;
+    width: 227.7px;
+    height: 46.2px;
+    font-size: 13.2px;
   }
 }
