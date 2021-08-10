@@ -51,7 +51,6 @@ img.robot {
   height: 337px;
   object-fit: contain;
   align-self: flex-start;
-  z-index: 0;
 }
 
 .oval-pink {
