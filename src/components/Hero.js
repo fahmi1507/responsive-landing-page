@@ -1,5 +1,4 @@
 import React from "react";
-// import "./hero.css";
 import "../css/style.css";
 import lego from "../images/lego/bitmap.png";
 import lego2x from "../images/lego/bitmap@2x.png";
