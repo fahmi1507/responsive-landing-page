@@ -1,6 +1,6 @@
 import React from "react";
-import "../../css/style.css";
-import arrowRight from "../../images/arrow.svg";
+import "../css/style.css";
+import arrowRight from "../images/arrow.svg";
 const HelpComponent = ({ data }) => {
   return (
     <div className="help-comp-container">

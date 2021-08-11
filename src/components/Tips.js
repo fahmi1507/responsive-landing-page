@@ -1,10 +1,10 @@
 import React from "react";
-import useFetch from "../../useFetch";
-import HelpComponent from "../help/HelpComponent";
-import pinkOval from "../../images/path-3.svg";
-import robot from "../../images/last-image/group-3.png";
-import robot2x from "../../images/last-image/group-3@2x.png";
-import robot3x from "../../images/last-image/group-3@3x.png";
+import useFetch from "../useFetch";
+import HelpComponent from "./HelpComponent";
+import pinkOval from "../images/path-3.svg";
+import robot from "../images/last-image/group-3.png";
+import robot2x from "../images/last-image/group-3@2x.png";
+import robot3x from "../images/last-image/group-3@3x.png";
 
 const imageUrl = "https://wknd-take-home-challenge-api.herokuapp.com/help-tips";
 

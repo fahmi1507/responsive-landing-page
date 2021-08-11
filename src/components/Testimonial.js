@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import group from "../../images/group/group-4.png";
-import group2x from "../../images/group/group-4@2x.png";
-import group3x from "../../images/group/group-4@3x.png";
-import blueDot from "../../images/oval.svg";
-import useFetch from "../../useFetch";
-import TestimonialCard from "../testimonialCards/TestimonialCard";
+import group from "../images/group/group-4.png";
+import group2x from "../images/group/group-4@2x.png";
+import group3x from "../images/group/group-4@3x.png";
+import blueDot from "../images/oval.svg";
+import useFetch from "../useFetch";
+import TestimonialCard from "./TestimonialCard";
 import { ClipLoader } from "react-spinners";
 import Carousel from "react-elastic-carousel";
 
