@@ -1,5 +1,5 @@
 import React from "react";
-import "./help.css";
+import "../../css/style.css";
 import arrowRight from "../../images/arrow.svg";
 const HelpComponent = ({ data }) => {
   return (

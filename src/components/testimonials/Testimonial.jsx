@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./testimonial.css";
 import group from "../../images/group/group-4.png";
 import group2x from "../../images/group/group-4@2x.png";
 import group3x from "../../images/group/group-4@3x.png";

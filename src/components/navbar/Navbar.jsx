@@ -1,8 +1,8 @@
 import React from "react";
-import "./navbar.css";
 import emot from "../../images/emot/bitmap.webp";
 import emot2x from "../../images/emot/bitmap@2x.webp";
 import emot3x from "../../images/emot/bitmap@3x.webp";
+import "../../css/style.css";
 
 const Navbar = () => {
   let prevScrollpos = window.pageYOffset;
