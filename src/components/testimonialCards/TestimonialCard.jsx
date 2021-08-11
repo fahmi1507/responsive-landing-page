@@ -1,5 +1,6 @@
 import React from "react";
-import "./testimonialCard.css";
+import "../../css/style.css";
+
 const TestimonialCard = ({ data }) => {
   return (
     <div className="card">

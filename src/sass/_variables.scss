@@ -1,0 +1,16 @@
+// colors
+$pink: #eebece;
+$white: #fff;
+$black: #000;
+$richBlue: #0b24fb;
+
+// breakpoints
+$sm: 480px;
+$md: 768px;
+$lg: 1024px;
+
+// mixins
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}

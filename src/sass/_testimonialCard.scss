@@ -3,10 +3,16 @@
   height: 140px;
   padding: 20px;
   box-shadow: 0 -10px 20px 0 rgba(249, 131, 171, 0.2);
-  background-color: #fff;
+  background-color: $white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media screen and (max-width: $sm) {
+    width: 271px;
+    height: 154px;
+    padding: 22px;
+  }
 }
 
 .card-title {
@@ -14,7 +20,12 @@
   height: 38px;
   font-size: 32px;
   font-weight: 900;
-  color: #000;
+  color: $black;
+  @media screen and (max-width: $sm) {
+    width: 166.1px;
+    height: 41.6px;
+    font-size: 35.2px;
+  }
 }
 
 .card-desc {
@@ -22,22 +33,8 @@
   height: 42px;
   font-size: 12px;
   letter-spacing: -0.43px;
-  color: #000;
-}
-
-@media screen and (max-width: 500px) {
-  .card {
-    width: 271px;
-    height: 154px;
-    padding: 22px;
-  }
-
-  .card-title {
-    width: 166.1px;
-    height: 41.6px;
-    font-size: 35.2px;
-  }
-  .card-desc {
+  color: $black;
+  @media screen and (max-width: $sm) {
     width: 227.7px;
     height: 46.2px;
     font-size: 13.2px;

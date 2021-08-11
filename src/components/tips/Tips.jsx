@@ -33,7 +33,7 @@ const Tips = () => {
 
       <div className="all-set-container">
         <div className="all-set-description">
-          <h3 className="pov-title all-set-text">You're all set</h3>
+          <h3 className="pov-title">You're all set</h3>
           <p className="pov-desc" style={{ marginBottom: "30px" }}>
             The wise man therefore always holds in these matters to this principle of selection.
           </p>
