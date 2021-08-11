@@ -72,7 +72,11 @@ img.group {
   font-size: 32px;
   font-weight: 900;
   color: $white;
-  margin: 84px auto 30px auto;
+  z-index: 10;
+  margin: 70px auto 30px auto;
+  @media screen and (max-width: $sm) {
+    margin: 70px 0 30px 32px;
+  }
 }
 
 .slider-container {

@@ -1,5 +1,4 @@
 import React from "react";
-import "./tips.css";
 import useFetch from "../../useFetch";
 import HelpComponent from "../help/HelpComponent";
 import pinkOval from "../../images/path-3.svg";

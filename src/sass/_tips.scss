@@ -42,14 +42,19 @@
 .all-set-container {
   @include flex-center;
   flex-direction: column;
+  position: relative;
 }
 
 .all-set-description {
   max-width: 619px;
   text-align: center;
+  margin-bottom: 203px;
   @media screen and (max-width: $sm) {
     max-width: 311px;
     text-align: start;
+  }
+  @media screen and (max-width: $md) {
+    margin-bottom: 0;
   }
 }
 
@@ -57,7 +62,13 @@ img.robot {
   width: 253px;
   height: 337px;
   object-fit: contain;
-  align-self: flex-start;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  @media screen and (max-width: $md) {
+    position: static;
+    align-self: flex-start;
+  }
 }
 
 .oval-pink {
