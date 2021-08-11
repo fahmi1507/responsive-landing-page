@@ -3,10 +3,9 @@
 }
 
 .black-container {
+  @include flex-center;
   position: absolute;
-  display: flex;
   justify-content: space-evenly;
-  align-items: center;
   width: 311px;
   height: 72px;
   opacity: 0.5;
