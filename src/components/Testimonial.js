@@ -45,8 +45,8 @@ const Testimonial = () => {
 
         <div className="deffinition-container">
           <p className="Deffinition-a-pract ">
-            <span className="text-style-1">Deffinition;</span> a practice or exercise to test or improve one's fitness for athletic competition, ability, or performance to exhaust (something, such as a mine) by working to devise, arrange,
-            or achieve by resolving difficulties. Merriam-Webster.com Dictionary.
+            <span className="text-style-1">Definition;</span> a practice or exercise to test or improve one's fitness for athletic competition, ability, or performance to exhaust (something, such as a mine) by working to devise, arrange, or
+            achieve by resolving difficulties. Merriam-Webster.com Dictionary.
           </p>
           <p className="weekend-team">-weekend team</p>
         </div>
