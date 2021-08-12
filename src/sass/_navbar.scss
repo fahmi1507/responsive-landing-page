@@ -10,7 +10,7 @@ nav {
   transition: 0.5s;
 }
 
-.nav__container {
+.nav-container {
   display: flex;
   justify-content: space-between;
   height: 80px;
@@ -35,7 +35,7 @@ img.emot {
   object-fit: contain;
 }
 
-.greetings__container {
+.greetings-container {
   display: flex;
   flex-direction: column;
 }

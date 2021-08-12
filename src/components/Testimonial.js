@@ -39,11 +39,11 @@ const Testimonial = () => {
 
   if (error) return <p>{error}</p>;
   return (
-    <section className="testimonial__container">
-      <div className="content__container">
+    <section className="testimonial-container">
+      <div className="content-container">
         <img src={group} srcSet={`${group2x}, ${group3x}`} alt="group" className="group" />
 
-        <div className="deffinition__container">
+        <div className="deffinition-container">
           <p className="Deffinition-a-pract ">
             <span className="text-style-1">Deffinition;</span> a practice or exercise to test or improve one's fitness for athletic competition, ability, or performance to exhaust (something, such as a mine) by working to devise, arrange,
             or achieve by resolving difficulties. Merriam-Webster.com Dictionary.

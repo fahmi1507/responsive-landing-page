@@ -17,10 +17,10 @@ const Navbar = () => {
   };
   return (
     <nav id="navbar">
-      <div className="nav__container">
+      <div className="nav-container">
         <div className="logo">
           <img src={emot} srcSet={`${emot2x}, ${emot3x}`} alt="emoticon" className="emot" />
-          <div className="greetings__container">
+          <div className="greetings-container">
             <span className="Good-Morning">Good Morning</span>
             <span className="Fellas">Fellas</span>
           </div>
