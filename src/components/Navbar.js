@@ -5,16 +5,6 @@ import emot3x from "../images/emot/bitmap@3x.webp";
 import "../css/style.css";
 
 const Navbar = () => {
-  let prevScrollpos = window.pageYOffset;
-  window.onscroll = () => {
-    let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-67px";
-    }
-    prevScrollpos = currentScrollPos;
-  };
   return (
     <nav id="navbar">
       <div className="nav-container">
